@@ -12,7 +12,7 @@ function Selling() {
   };
 
   return (
-    <section className="bg-[url('https://static.fastly.carvana.io/stc-home-ui/next/images/backgroundw1400.webp')] bg-cover lg:h-[600px] h-[800px] bg-no-repeat bg-center">
+    <section className="bg-[url('https://static.fastly.carvana.io/stc-home-ui/next/images/backgroundw1400.webp')] bg-cover lg:h-[600px] h-[800px] bg-no-repeat bg-center lg:mt-0 mt-16">
       <div className="container mx-auto h-full flex justify-center items-center lg:flex-row flex-col gap-[140px]">
         <div className="flex flex-col gap-4">
           <div className="w-6 h-[3px] bg-orange-500"></div>
