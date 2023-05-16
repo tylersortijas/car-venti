@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <AffordCars />
