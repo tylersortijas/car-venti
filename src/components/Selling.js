@@ -26,7 +26,7 @@ function Selling() {
             <br /> the spot.
           </p>
         </div>
-        <div className="flex flex-col justify-between items-center bg-white w-[475px] h-[250px] py-6 rounded">
+        <div className="flex flex-col justify-between items-center bg-white xl:w-[475px] w-[400px] h-[250px] py-6 rounded">
           <div className="flex items-center gap-[12px]">
             {plate ? (
               <p className="text-xs text-gray-500">

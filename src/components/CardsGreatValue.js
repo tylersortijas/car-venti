@@ -2,7 +2,7 @@ import React from "react";
 
 function CardsGreatValue() {
   return (
-    <div className="container mx-auto flex items-center justify-center lg:flex-row flex-col gap-4">
+    <div className="container mx-auto flex items-center justify-center xl:flex-row flex-col gap-4">
       <div className="flex flex-col items-center gap-4">
         <div className="bg-white rounded lg:w-[700px] md:w-[500px] w-[400px] flex items-center justify-between px-8 cursor-pointer shadow hover:shadow-lg transition-all">
           <h2 className="font-semibold text-xl">Honda Civic</h2>
