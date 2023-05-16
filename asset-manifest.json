@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/car-venti/static/css/main.412004bb.css",
+    "main.js": "/car-venti/static/js/main.36f6c0c7.js",
+    "index.html": "/car-venti/index.html",
+    "main.412004bb.css.map": "/car-venti/static/css/main.412004bb.css.map",
+    "main.36f6c0c7.js.map": "/car-venti/static/js/main.36f6c0c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412004bb.css",
+    "static/js/main.36f6c0c7.js"
+  ]
+}
