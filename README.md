@@ -1,5 +1,9 @@
 # car-venti
 
+# Website Preview
+![Carventi _ Buy   Finance Used Cars Online _ Home Delivery (1)](https://github.com/tylersortijas/car-venti/assets/96886636/437a9005-07ea-41c2-be96-55ea5f3c8869)
+
+
 # Getting Started
 ```
 git clone https://github.com/tylersortijas/car-venti.git
