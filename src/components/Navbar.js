@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { BsFillCarFrontFill } from "react-icons/bs";
 
 function Navbar() {
@@ -10,16 +11,20 @@ function Navbar() {
             <div className="bg-blue-500 rounded-full p-2">
               <BsFillCarFrontFill className="text-xl text-white" />
             </div>
-            <h1 className="text-xl">
-              Car<span className="font-bold">venti</span>
-            </h1>
+            <Link to='/'>
+              <h1 className="text-xl">
+                Car<span className="font-bold">venti</span>
+              </h1>
+            </Link>
           </div>
           <div>
             <ul className="lg:flex justify-around items-center gap-3 font-semibold hidden">
               <li className="hover:text-blue-400 cursor-pointer">
                 Search Cars
               </li>
-              <li className="hover:text-blue-400 cursor-pointer">Sell/Trade</li>
+              <Link to='/sell-my-car'>
+                <li className="hover:text-blue-400 cursor-pointer">Sell/Trade</li>
+              </Link>
               <li className="hover:text-blue-400 cursor-pointer">Financing</li>
             </ul>
           </div>

@@ -4,7 +4,7 @@ import { BsStarFill, BsStarHalf } from "react-icons/bs";
 
 function Testimonials() {
   return (
-    <section className="bg-carvana-gray h-[800px] lg:mt-32 mt-16">
+    <section className="bg-carvana-gray h-[600px] lg:mt-28 mt-16">
       <div className="container mx-auto h-full w-full flex flex-col items-center justify-center gap-4">
         <div className="flex flex-col items-center text-center gap-2">
           <div className="w-8 h-[4px] bg-orange-500"></div>
@@ -35,7 +35,7 @@ function Testimonials() {
               in
             </p>
             <p className="text-gray-500 text-xs">97,500+ reviews</p>
-            <p className="text-blue-400 hover:underline text-xs">
+            <p className="text-blue-400 hover:underline text-xs cursor-pointer">
               See All Reviews
             </p>
           </div>
@@ -57,7 +57,7 @@ function Testimonials() {
               <div>|</div>
               <p className="text-gray-400">April 25, 2022</p>
             </div>
-            <p className="text-blue-400 hover:underline">Read Full Review</p>
+            <p className="text-blue-400 hover:underline cursor-pointer">Read Full Review</p>
           </div>
         </div>
       </div>

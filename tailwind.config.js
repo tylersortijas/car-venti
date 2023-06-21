@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "carvana-gray": "#F4F8FA",
+        "carvana-blue": "#0D375E",
       },
     },
   },
