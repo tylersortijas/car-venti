@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/car-venti/static/css/main.5aa104a2.css",
-    "main.js": "/car-venti/static/js/main.4e5d21a9.js",
+    "main.css": "/car-venti/static/css/main.b7e6e0f1.css",
+    "main.js": "/car-venti/static/js/main.ff8d5766.js",
     "index.html": "/car-venti/index.html",
-    "main.5aa104a2.css.map": "/car-venti/static/css/main.5aa104a2.css.map",
-    "main.4e5d21a9.js.map": "/car-venti/static/js/main.4e5d21a9.js.map"
+    "main.b7e6e0f1.css.map": "/car-venti/static/css/main.b7e6e0f1.css.map",
+    "main.ff8d5766.js.map": "/car-venti/static/js/main.ff8d5766.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aa104a2.css",
-    "static/js/main.4e5d21a9.js"
+    "static/css/main.b7e6e0f1.css",
+    "static/js/main.ff8d5766.js"
   ]
 }
