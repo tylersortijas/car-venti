@@ -25,7 +25,9 @@ function Navbar() {
               <Link to='/sell-my-car'>
                 <li className="hover:text-blue-400 cursor-pointer">Sell/Trade</li>
               </Link>
-              <li className="hover:text-blue-400 cursor-pointer">Financing</li>
+              <Link to='/financing'>
+                <li className="hover:text-blue-400 cursor-pointer">Financing</li>
+              </Link>
             </ul>
           </div>
         </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Selling from '../components/Selling';
-import CarValue from '../components/CarValue';
-import Works from '../components/Works';
+import CarValue from '../components/sellTrade/CarValue';
+import Works from '../components/sellTrade/Works';
 import Testimonials from '../components/Testimonials';
-import Faq from '../components/Faq';
-import TradeInCard from '../components/TradeInCard';
+import Faq from '../components/sellTrade/Faq';
+import TradeInCard from '../components/sellTrade/TradeInCard';
 import Footer from '../components/Footer';
 
 
