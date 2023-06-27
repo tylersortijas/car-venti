@@ -8,11 +8,11 @@ import { RiCarWashingLine, RiPriceTag3Line } from 'react-icons/ri';
 
 function FinanceExperience() {
     return (
-        <section className='h-[500px] mt-20'>
+        <section className='lg:h-[500px] mt-20 lg:px-0 px-4'>
             <div className='container mx-auto h-full w-full flex flex-col items-center justify-center gap-[20px]'>
                 <h1 className='text-carvana-blue text-4xl font-bold text-center'>Skip the dealership and buy with<br /> confidence</h1>
                 <p className='text-center text-gray-500'>Your experience doesn't end when you get the keys. At Carventi, we give you peace of<br /> mind every step of the way.</p>
-                <div className='flex items-center justify-center'>
+                <div className='flex lg:flex-row flex-col items-center justify-center lg:gap-0 gap-[20px]'>
                     <div className='flex flex-col items-center w-[400px]'>
                         <AiOutlinePrinter className='text-carvana-blue text-5xl' />
                         <p>No dealer fees</p>
@@ -26,7 +26,7 @@ function FinanceExperience() {
                         <p>Save $1,400 on average</p>
                     </div>
                 </div>
-                <div className='flex items-center justify-center mb-8'>
+                <div className='flex lg:flex-row flex-col items-center justify-center mb-8 lg:gap-0 gap-[20px]'>
                     <div className='flex flex-col items-center w-[400px]'>
                         <BsShieldCheck className='text-carvana-blue text-5xl' />
                         <p className='text-center'>7-Day Money-Back<br /> Guarantee</p>

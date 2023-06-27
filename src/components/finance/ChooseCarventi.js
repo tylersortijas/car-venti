@@ -6,11 +6,11 @@ import { BsTruckFlatbed } from 'react-icons/bs';
 
 function ChooseCarventi() {
     return (
-        <section className='h-[600px]'>
+        <section className='lg:h-[600px] h-[800px]'>
             <div className='container mx-auto flex flex-col items-center justify-around h-full w-full'>
                 <hr className='border-1 border-gray-300 w-full' />
                 <h1 className='text-4xl text-carvana-blue font-bold'>Why choose Carventi?</h1>
-                <div className='flex justify-center items-center'>
+                <div className='flex lg:flex-row flex-col justify-center items-center lg:gap-0 gap-[25px]'>
                     <div className='flex flex-col justify-center items-center w-[400px] gap-[8px]'>
                         <RiCarWashingLine className='text-carvana-blue text-5xl' />
                         <h1 className='text-carvana-blue font-semibold text-xl'>Quality Vehicles</h1>

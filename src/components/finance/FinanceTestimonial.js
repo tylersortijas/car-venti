@@ -3,11 +3,11 @@ import { BsStarFill } from "react-icons/bs";
 
 function FinanceTestimonial() {
     return (
-        <section className='h-[600px] mt-20'>
+        <section className='lg:h-[600px] mt-20'>
             <div className='container mx-auto h-full w-full flex flex-col items-center gap-[80px]'>
                 <hr className='border-1 border-gray-300 w-full' />
                 <h1 className='text-4xl text-carvana-blue capitalize font-bold'>Customer Reviews</h1>
-                <div className='flex items-center gap-8'>
+                <div className='flex lg:flex-row flex-col items-center gap-8'>
                     <div className='w-[300px] flex flex-col gap-3'>
                         <div className='flex items-center gap-1 text-yellow-500 text-xs'>
                             <BsStarFill />
